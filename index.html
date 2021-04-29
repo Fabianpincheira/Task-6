@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css"   media="(min-width: 768px) and (max-width: 1000px)" >
+    <link rel="stylesheet" href="css/mobile.css"  media="(min-width: 480px) and (max-width: 599px)">
+    <link rel="stylesheet" href="css/screen.css"  media="(min-width: 490px) and (max-width: 1000px)">
+    <script src="js/javascript.js"></script>
+    <script src="js/arreglo.js"></script>
+    <title>Mi Pagina Web</title>
+</head>
+<body>
+    <nav class="menu">
+          <img src="images/red.png" alt="logo" style="width: 60px;">
+          <il><a class="home">Inicio</a></il>
+          <il><a class="producto">Producto</a></il>
+          <il><a class="contacto">Contacto</a></il>   
+        
+      </nav>
+
+      <section class="seccion">
+          <div class="video-container">
+            <video src="./images/production ID_4057999.mp4" autoplay poster="./images/video.mp4" 
+             style="width: 100%; height: 20%;" >
+            </video> <!--CONTROLES DE REPRODUCCION-->
+          </div>
+      </section>
+
+      <section class="seccion2">
+          <div class="imagen-container">
+             <figcaption>
+               
+              <img src="./images/fuentes-seguras-para-web-1024x512.jpg" alt="Mifoto"> 
+              <figure>Servicios</figure>
+              <img src="images/Teletrabajo.jpg" alt="foto2">   
+              <figure> Atencion</figure>
+            </figcaption>  
+          </div>
+
+          <div class="descripcion-imagen">
+            <a> <h1>Hola, solicita nuestros Servicios.</h1></a>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, dolorem nesciunt officiis maiores consequatur nisi, rem veniam error aspernatur earum eligendi adipisci iste voluptates eos fugit incidunt repudiandae, unde reiciendis</p>
+            <br>
+            <button  type="submit" name="enviar_formulario" id="boton"><p>¡Conoce mas sobre nosotros! </p>
+            </button>
+        </div>
+          
+      </section>
+      
+    <section class="seccion3">
+      <div class="form-container">
+
+        <hgroup><h1> ¡Registrate!</h1></hgroup>
+        
+             <input type="text" name="nombre[]" class="form" id="nombre" placeholder="Nombre completo"><br><br>
+          
+
+          
+              <input type="email" name="correo[]" class="form" id="email" placeholder="Ingrese correo"><br><br>
+          
+
+          
+              <input type="text" name="telefono[]" class="form" id="telefono" placeholder="Ingrese telefono"><br><br>
+
+
+          <button type="submit" class="btn" id="btn" onclick="arrayInput()"> Enviar </button><br><br>
+
+      </div>
+  </section>
+
+   
+      <footer id="pie">
+        © 2021  Developer.
+      Política de Privacidad Términos de Uso Trabaja con Nosotros &copy; 2021
+    </footer>
+</body>
+    
+</body>
+</html>

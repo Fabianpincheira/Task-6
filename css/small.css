@@ -1,0 +1,35 @@
+body{
+    background-color: darkslategray;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+img{
+    display: block;
+    width: 200px;
+}
+
+.seccion{
+    background-color: darkslategray;
+    display: block;
+}
+.seccion2{
+    background-color: darkslategray;
+    display: block;
+}
+
+.seccion3{
+    background-color: darkslategray;
+    display: block;
+}
+
+.seccion3 .form-container{
+    background-color: darkslategray;
+    display:inline;
+    padding: 20px 20px;
+ 
+}
